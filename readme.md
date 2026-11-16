@@ -1,67 +1,46 @@
 # CV HTML
 
-Ce projet est une page de CV / portfolio personnel créée en HTML pur. Il sert de modèle simple et modifiable pour présenter ses informations professionnelles, ses compétences, son expérience et ses liens sociaux.
+Un modèle simple de CV en une seule page, réalisé en HTML. Ce projet permet de présenter un profil professionnel, ses compétences, sa formation, son expérience et ses liens sociaux.
 
-## Aperçu
+## Projet
 
-Le fichier principal est :
+Ce CV est réalisé dans le cadre du projet [Single-Page CV de roadmap.sh](https://roadmap.sh/projects/single-page-cv).
 
-- `cv.html`
+## Contenu
 
-Il contient une structure de base pour :
+Le fichier principal est [`cv.html`](cv.html). Il contient des sections pour :
 
-- le nom et le titre professionnel
-- la section "Skills" (compétences)
-- l'éducation
-- l'expérience professionnelle
-- les liens vers LinkedIn et GitHub
+- le nom et le titre professionnel ;
+- les compétences ;
+- la formation ;
+- l'expérience professionnelle ;
+- les liens LinkedIn et GitHub.
 
 ## Prérequis
 
-Aucun framework ni dépendance n'est requis.
+Aucune dépendance ni aucun framework n'est nécessaire. Un navigateur web moderne et un éditeur de texte suffisent.
 
-Il suffit d'avoir :
+## Ouvrir le CV
 
-- un navigateur web moderne
-- un éditeur de texte (VS Code, Sublime Text, etc.)
-
-## Comment lancer le projet
-
-1. Ouvrez le dossier du projet.
-2. Double-cliquez sur `cv.html` pour l'ouvrir dans votre navigateur.
-3. Vous pouvez aussi utiliser l'option "Open in Browser" depuis votre éditeur.
+Ouvrez le dossier du projet, puis double-cliquez sur `cv.html` pour afficher la page dans votre navigateur. Vous pouvez également utiliser la fonction « Open in Browser » de votre éditeur.
 
 ## Personnalisation
 
-Modifiez simplement les sections dans `cv.html` pour remplacer :
+Modifiez le contenu de `cv.html` pour ajouter vos coordonnées, compétences, études, expériences et liens. Les exemples à remplacer comprennent notamment :
 
-- le nom et les coordonnées
-- les compétences
-- le parcours scolaire
-- les expériences professionnelles
-- les liens LinkedIn / GitHub
-
-### Exemple de contenu à modifier
-
-- `Esmel Rilay`
-- `Junior Frontend Developer`
-- `School Name, Location - Degree`
-- `Company Name, Location - Job Title`
-- `no_reply@example.com`
+- `Esmel Rilay` et `Junior Frontend Developer` ;
+- `School Name, Location - Degree` ;
+- `Company Name, Location - Job Title` ;
+- `no_reply@example.com`.
 
 ## Structure du projet
 
 ```text
 html/
 ├── cv.html
-├── readme.md
-└── .git
+└── readme.md
 ```
-
-## Objectif
-
-Ce projet permet de créer rapidement un CV en ligne, propre, lisible et facile à personnaliser sans dépendances externes.
 
 ## Licence
 
-Ce projet est fourni à titre de modèle personnel. Vous pouvez le modifier et l'adapter selon vos besoins.
+Ce projet est fourni comme modèle personnel et peut être modifié selon vos besoins.
